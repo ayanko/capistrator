@@ -2,6 +2,6 @@ History.txt
 Manifest.txt
 README.txt
 Rakefile
-bin/capistrator
 lib/capistrator.rb
-test/test_capistrator.rb
+lib/capistrator/tasks/crontab.rb
+lib/capistrator/tasks.rb

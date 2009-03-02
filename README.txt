@@ -1,32 +1,35 @@
 = capistrator
 
-* FIX (url)
+* http://github/ayanko/capistrator
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Set of taks for Capistrano 2
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* crontab tasks:
+ * replace crontabs for each specified crontab user on matched server
+ * clear crontas for each specified crontab user on matched server
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+# config/deploy.rb
+require 'capistrator/tasks'
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* capistrano 2
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install capistrator
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIX
+Copyright (c) 2009 Andriy T. Yanko
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
